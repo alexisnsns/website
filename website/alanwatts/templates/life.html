@@ -1,0 +1,88 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>life</title>
+<link rel="stylesheet" href="{% static 'alanwatts/stylesheet.css' %}" {% now "U" %} />
+</head>
+
+
+<body>
+
+
+  <div class="header">
+    <h1 id = "titre_principal">
+      <a> Alan Watts </a>
+    </h1>
+  </div>
+
+
+<p id= titre_life> His Life </p>
+
+
+<div class= "vie">
+
+  <p> Alan Watts was a prominent British philosopher, writer and speaker, who is recognized for interpreting and promoting Eastern Philosophy by making it accessible to the Western audience. His services as a volunteer programmer at KPFA, a Pacifica Radio station in Berkeley made him a very famous figure in San Francisco Bay Area.
+
+    Alan was born as Alan Wilson Watts on January 6, 1915 in Chislehurst, Kent, England. Alan belonged to a middle class family, his father was employed at the London office of Michelin Tyre Company, while his mother was a housewife. His mother’s devout religiousness had a meaningful impact on his upbringing. Alan attended the King’s School in Canterbury and during his teen years, he was presented with the opportunity to travel to France along with wealthy Epicurean, Francis Croshaw. Croshaw also influenced Alan with his Buddhist beliefs and practices.  After completing his secondary education, he briefly worked in a painting house, and later, at a bank. Watts’ interests were piqued by philosophy, he began extensively reading works of philosophy, history, psychology, psychiatry and Eastern wisdom. He encountered influential spiritual authors who had a profound impact in shaping his ideologies, such as, Nicholas Roerich, Dr. Sarvapalli Radhakrishnan and theosophists like Alice Bailey.
+  </p>
+
+
+  <p> Alan learned Chinese, and did significant research in Zen Buddhism and the fundamental beliefs and practices of religions and philosophies of India and East Asia. Alan was a prominent member of the London Buddhist Lodge, and in 1931, he was appointed the secretary of the organization. In 1936, he attended the World Congress of Faiths at the University of London, where he heard D.T. Suzuki, a prominent scholar of Zen Buddhism, who had a strong influence on his thoughts. The same year, inspired by the works of Suzuki, Watts published his first book, “The Spirit of Zen”. In 1938, he moved to America and began training in Zen Buddhism, however, unsatisfied with the methods of the teacher, he left Zen training. Alan then enrolled himself in the Anglican school of Sea-bury Western Theological Seminary in Evanston, Illinois, where he studied Christian scriptures, theology and Church history and he received his Master’s degree in theology. </p>
+
+
+  <p> In 1951, Alan Watts settled in California upon accepting a position in the faculty of the American Academy of Asian Studies in San Francisco. He was also on the administration board of the academy for several years. During his stay at the Academy, he instructed himself in written Chinese as well as, Chinese brush calligraphy. Watts left the Academy to embark on a freelance career, and in 1953, he began his career as a radio programmer for the Pacifica Radio Station KPFA in Berkeley.
+
+    In 1957, Watts published his highly acclaimed and much discussed book which rose to the status of international bestseller, titled “The Way of Zen”, which dealt with the philosophical fundamentals and history of Zen Buddhism. During his travels to Europe, Alan encountered eminent psychiatrist, Carl Jung, and on his return to America, Watts began exploring the subject matter of modern science and psychology, aiming to establish an alignment between mystical experiences and material theories of the universe. He also began taking psychedelic drugs. He published his famous book, “Tao: The Watercourse Way”, which firmly established him as a prominent Zennist. He also produced an audio series, “Out of Our Mind”, where he discussed diverse subjects such as arts, cuisine, child rearing, education, law and freedom, architecture and sexuality.
+
+    Alan Watts composed more than 25 books on diverse topics such as cybernetics, semantics, process philosophy, natural history, the anthropology of sexuality, and Eastern and Western religion. Some of his famous books include “The Way of Zen” (1957), “Psychotherapy East and West” (1961), “The New Alchemy” (1958) “The Legacy of Asia and Western Man” (1937), “The Meaning of Happiness” (1940) and “The Joyous Cosmology” (1962) among others.
+  </p>
+</div>
+
+</body>
+
+<footer>
+        <div class="footer_life">
+          <h1>
+               <p id = "final"> In loving memory of Alan Watts (1915-1973) </p>
+               <p> Contact - Donate  </p>
+                <p> Made with love in Paris  </p>
+        </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "20%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<div id="myNav" class="overlay">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <div class="overlay-content">
+   <a href="/index">Main page</a>
+   <a href="/life">His life</a>
+   <a href="/life">His teachings</a>
+   <a href="/videos">His conferences</a>
+   <a href="/index">His books</a>
+ </div>
+</div>
+
+<span onclick="openNav()"> <img id= "bouton" src= "https://w7.pngwing.com/pngs/639/1013/png-transparent-hamburger-button-computer-icons-drop-down-list-fast-food-menu-rectangle-share-icon-pancake-thumbnail.png"> </span>
+
+
+
+</body>
+</html>

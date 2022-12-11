@@ -1,0 +1,88 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="{% static 'alanwatts/stylesheet.css' %}" >
+
+
+<html>
+
+<head>
+  <title>index</title>
+</head>
+
+
+<body>
+    <div class="header">
+      <h1 id = "titre_principal">
+           <a> Alan Watts </a>
+      </h1>
+    </div>
+
+
+<img class="picture" src="https://img.bedrock.nl/images/Kl8J7mecW1YO8mBPcnidZWqydTs=/1720x606/filters:quality(80):format(jpeg):background_color(fff)/https%3A%2F%2Fwww.bedrock.nl%2Fwp-content%2Fuploads%2F2021%2F08%2Fimg.jpeg">
+
+
+
+  <div id= "titre_1">
+    <p> A spiritual entertainer </p>
+    <h1 id= "groupe_1">
+      <p> "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsulorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsum" </p>
+  </div>
+
+  <div class= "citation_1">
+    <p> " Muddy water is best cleared by being left alone " </p>
+  </div>
+
+  <div id = "ligne">
+  </div>
+
+
+
+    <div id= "titre_2">
+      <p> Our project </p>
+      <h1 id= "groupe_2">
+        <p> "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsulorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsu lorem ipsum lorem ipsum" </p>
+    </div>
+
+</body>
+
+
+<footer>
+        <div class="footer">
+          <h1>
+               <p id = "final"> In loving memory of Alan Watts (1915-1973) </p>
+               <p> Contact - Donate  </p>
+                <p> Made with love in Paris  </p>
+        </div>
+  </footer>
+
+
+
+
+
+
+<span onclick="openNav()"> <img id= "bouton" src= "https://w7.pngwing.com/pngs/639/1013/png-transparent-hamburger-button-computer-icons-drop-down-list-fast-food-menu-rectangle-share-icon-pancake-thumbnail.png"> </span>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "20%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+
+<div id="myNav" class="overlay">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <div class="overlay-content">
+     <a href="/index">Main menu</a>
+     <a href="/life">His life</a>
+     <a href="/index">His teachings</a>
+     <a href="/videos">His conferences</a>
+     <a href="/index">His books</a>
+   </div>
+  </div>
+
+
+</html>
